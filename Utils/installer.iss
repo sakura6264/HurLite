@@ -32,8 +32,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "..\App\bin\Release\netcoreapp3.1\*";Excludes: "*.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\App\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\*";Excludes: "*.pdb"; DestDir: "{app}\runtimes\win\lib\netcoreapp3.1"; Flags: ignoreversion
+Source: "..\App\bin\Release\net6.0-windows7.0\*";Excludes: "*.pdb"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{autoprograms}\{#MyAppName}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
