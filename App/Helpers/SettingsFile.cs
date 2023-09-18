@@ -51,10 +51,5 @@ namespace HurLite.BrowserSelector.Helpers
             return new SettingsFile(_settings);
         }
 
-        public void Update()
-        {
-            SettingsObject.LastUpdated = DateTime.Now.ToString();
-            JsonOperations.FromModelToJson(SettingsObject, Constants.SettingsFilePath);
-        }
     }
 }

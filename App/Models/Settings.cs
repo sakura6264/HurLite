@@ -6,10 +6,6 @@ namespace HurLite.BrowserSelector.Models
 {
     public class Settings
     {
-        public string Version { get; set; } = Constants.VERSION;
-
-        public string LastUpdated { get; set; } = DateTime.Now.ToString();
-
         public List<Browser> Browsers { get; set; }
 
         public AppSettings AppSettings { get; set; }

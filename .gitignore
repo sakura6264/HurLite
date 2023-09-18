@@ -1,4 +1,4 @@
-bin/
-obj/
+App/bin/
+App/obj/
 .vs/
 *.user
